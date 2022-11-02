@@ -22,4 +22,8 @@ printArray(fontList); //For listing all possible fonts to choose from, then crea
 titleFont = createFont("Harrington", 55); //Verified the font exists in Processing.JAVA
 // Tools / Create Font / Find Font / Do not press "OK", known bug
 //
+//Layout or text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
+//
+//Repeated Executed Code
+text( title, titleX, titleY, titleWidth, titleHeight);
