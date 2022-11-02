@@ -1,5 +1,5 @@
 //Global Variables
-int appWidth, appHeight;
+int appWidth, appHeight, fontSize;
 float titleX, titleY, titleWidth, titleHeight;
 String title = "Wahoo!";
 PFont titleFont;
