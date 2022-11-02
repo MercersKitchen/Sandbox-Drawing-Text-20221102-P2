@@ -26,5 +26,7 @@ titleFont = createFont("Harrington", 55); //Verified the font exists in Processi
 rect(titleX, titleY, titleWidth, titleHeight);
 //
 //Repeated Executed Code
+fill(purple);
 fontSize = 50;
+textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
