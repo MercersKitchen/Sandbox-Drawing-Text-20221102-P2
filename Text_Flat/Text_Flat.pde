@@ -2,16 +2,16 @@
 int appWidth, appHeight;
 float titleX, titleY, titleWidth, titleHeight;
 //
-size(500, 600); //Landscape
+size(500, 600); //Portrait
 //Copy Display Algorithm
 appWidth = width;
 appHeight = height;
 //
 //Population
-titleX = ;
-titleY = ;
-titleWidth = ;
-titleHeight = ;
+titleX = appWidth;
+titleY = appHeight;
+titleWidth = appWidth;
+titleHeight = appHeight;
 
 //
-rect(titleX, titleY, titleWidth, titleHeight);
+//rect(titleX, titleY, titleWidth, titleHeight);
