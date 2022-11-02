@@ -2,6 +2,7 @@
 int appWidth, appHeight;
 float titleX, titleY, titleWidth, titleHeight;
 String title = "Wahoo!";
+PFont titleFont;
 //
 size(500, 600); //Portrait
 //Copy Display Algorithm
@@ -18,7 +19,7 @@ titleHeight = appHeight * 1/10;
 //Fonts from OS (Operating System)
 String[] fontList = PFont.list(); //To list all fonts available
 printArray(fontList); //For listing all possible fonts to choose from, then createFont
-titleFont = createFont(); //Verified the font exists in Processing.JAVA
+titleFont = createFont("Harrington", 55); //Verified the font exists in Processing.JAVA
 // Tools / Create Font / Find Font / Do not press "OK", known bug
 //
 rect(titleX, titleY, titleWidth, titleHeight);
