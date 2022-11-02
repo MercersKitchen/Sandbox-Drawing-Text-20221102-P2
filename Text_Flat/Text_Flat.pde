@@ -28,6 +28,8 @@ rect(titleX, titleY, titleWidth, titleHeight);
 //
 //Repeated Executed Code
 fill(purple);
+textAlign(CENTER, CENTER);
+//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
 fontSize = 50;
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
