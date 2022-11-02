@@ -3,6 +3,7 @@ int appWidth, appHeight, fontSize;
 float titleX, titleY, titleWidth, titleHeight;
 String title = "Wahoo!";
 PFont titleFont;
+color purple=#2C08FF, resetDefaultInk=#FFFFFF; //not Night Mode Friendly
 //
 size(500, 600); //Portrait
 //Copy Display Algorithm
@@ -30,3 +31,4 @@ fill(purple);
 fontSize = 50;
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
+fill(resetDefaultInk);
