@@ -74,10 +74,8 @@ void draw() {
   fill(resetDefaultInk);
 }//End draw
 //
-void keyPressed() {
-}//End keyPressed
+void keyPressed() {}//End keyPressed
 //
-void mousePressed() {
-}//End mousePressed
+void mousePressed() {}//End mousePressed
 //
 //End Main Program
