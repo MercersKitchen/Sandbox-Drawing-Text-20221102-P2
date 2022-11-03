@@ -29,6 +29,7 @@ titleFont = createFont("Harrington", 55); //Verified the font exists in Processi
 //
 //Layout or text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
+rect(footerX, footerY, footerWidth, footerHeight);
 //
 //Repeated Executed Code
 fill(purple);
@@ -36,5 +37,5 @@ textAlign(CENTER, CENTER);
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
 fontSize = 50; //Largest size given window
 textFont(titleFont, fontSize);
-text( title, titleX, titleY, titleWidth, titleHeight);
+text( title, titleX, titleY, titleWidth, titleHeight );
 fill(resetDefaultInk);
