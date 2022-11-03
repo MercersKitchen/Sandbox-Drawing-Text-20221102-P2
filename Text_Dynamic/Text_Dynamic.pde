@@ -40,6 +40,13 @@ void setup()
   appWidth = width;
   appHeight = height;
   //
+  //Population
+  titleX = footerX = appWidth * 1/4;
+  titleY = appHeight * 1/10;
+  footerY = appHeight * 8/10;
+  titleWidth = footerWidth = appWidth * 1/2;
+  titleHeight = footerHeight = appHeight * 1/10;
+  //
 }//End setup
 //
 void draw() {
@@ -53,13 +60,7 @@ void mousePressed() {
 //
 //End Main Program
 
-//Population
-titleX = footerX = appWidth * 1/4;
-titleY = appHeight * 1/10;
-footerY = appHeight * 8/10;
-titleWidth = footerWidth = appWidth * 1/2;
-titleHeight = footerHeight = appHeight * 1/10;
-//
+
 //Text Setup, single executed code
 //Fonts from OS (Operating System)
 String[] fontList = PFont.list(); //To list all fonts available
