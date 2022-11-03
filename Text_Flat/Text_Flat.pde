@@ -40,5 +40,5 @@ textAlign(CENTER, CENTER);
 fontSize = 50; //Largest size given window
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight );
-text( footer, titleX, titleY, titleWidth, titleHeight );
+text( footer, footerX, footerY, footerWidth, footerHeight );
 fill(resetDefaultInk);
