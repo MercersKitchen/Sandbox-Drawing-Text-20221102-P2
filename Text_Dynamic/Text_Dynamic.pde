@@ -1,5 +1,4 @@
 //To Do List
-//Discussion about Font is too big (white space on top of font
 //Display Algorithm, see https://github.com/MercersKitchen/Sandbox-Hello-World220221017-P2/blob/main/Hello_World%20IfElse/Hello_World.pde
 
 //Global Variables
@@ -10,6 +9,15 @@ String title = "Wahoo!", footer="Drip";
 PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF; //not Night Mode Friendly
 //
+void setup() {}//End setup
+//
+void draw() {}//End draw
+//
+void keyPressed() {}//End keyPressed
+//
+void mousePressed() {}//End mousePressed
+//
+//End Main Program
 size(500, 600); //Portrait
 //Copy Display Algorithm
 appWidth = width;
