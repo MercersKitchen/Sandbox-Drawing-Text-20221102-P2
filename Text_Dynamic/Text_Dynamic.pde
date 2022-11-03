@@ -47,6 +47,17 @@ void setup()
   titleWidth = footerWidth = appWidth * 1/2;
   titleHeight = footerHeight = appHeight * 1/10;
   //
+  //Text Setup, single executed code
+  //Fonts from OS (Operating System)
+  String[] fontList = PFont.list(); //To list all fonts available
+  printArray(fontList); //For listing all possible fonts to choose from, then createFont
+  titleFont = createFont("Harrington", 55); //Verified the font exists in Processing.JAVA
+  // Tools / Create Font / Find Font / Do not press "OK", known bug
+  //
+  //Layout or text space and typographical features
+  rect(titleX, titleY, titleWidth, titleHeight);
+  rect(footerX, footerY, footerWidth, footerHeight);
+  //
 }//End setup
 //
 void draw() {
@@ -61,17 +72,7 @@ void mousePressed() {
 //End Main Program
 
 
-//Text Setup, single executed code
-//Fonts from OS (Operating System)
-String[] fontList = PFont.list(); //To list all fonts available
-printArray(fontList); //For listing all possible fonts to choose from, then createFont
-titleFont = createFont("Harrington", 55); //Verified the font exists in Processing.JAVA
-// Tools / Create Font / Find Font / Do not press "OK", known bug
-//
-//Layout or text space and typographical features
-rect(titleX, titleY, titleWidth, titleHeight);
-rect(footerX, footerY, footerWidth, footerHeight);
-//
+
 //Repeated Executed Code
 fill(purple);
 textAlign(CENTER, CENTER);
