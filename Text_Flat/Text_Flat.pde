@@ -19,9 +19,9 @@ appHeight = height;
 titleX = footerX = appWidth * 1/4;
 titleY = appHeight * 1/10;
 footerY = appHeight * 9/10;
-titleWidth = appWidth * 1/2;
+titleWidth = footerWidth = appWidth * 1/2;
 titleHeight = appHeight * 1/10;
-, , footerWidth, footerHeight
+, , , footerHeight
 //
 //Text Setup, single executed code
 //Fonts from OS (Operating System)
