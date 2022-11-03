@@ -61,6 +61,17 @@ void setup()
 }//End setup
 //
 void draw() {
+  //Repeated Executed Code
+  fill(purple);
+  textAlign(CENTER, CENTER);
+  //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
+  fontSize = 50; //Largest size given window
+  textFont(titleFont, fontSize);
+  text( title, titleX, titleY, titleWidth, titleHeight );
+  textAlign(CENTER, BOTTOM);
+  //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
+  text( footer, footerX, footerY, footerWidth, footerHeight );
+  fill(resetDefaultInk);
 }//End draw
 //
 void keyPressed() {
@@ -70,17 +81,3 @@ void mousePressed() {
 }//End mousePressed
 //
 //End Main Program
-
-
-
-//Repeated Executed Code
-fill(purple);
-textAlign(CENTER, CENTER);
-//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-fontSize = 50; //Largest size given window
-textFont(titleFont, fontSize);
-text( title, titleX, titleY, titleWidth, titleHeight );
-textAlign(CENTER, BOTTOM);
-//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-text( footer, footerX, footerY, footerWidth, footerHeight );
-fill(resetDefaultInk);
