@@ -5,6 +5,7 @@
 //Global Variables
 int appWidth, appHeight, fontSize;
 float titleX, titleY, titleWidth, titleHeight;
+float footerX, footerY, footerWidth, footerHeight;
 String title = "Wahoo!";
 PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF; //not Night Mode Friendly
@@ -15,10 +16,12 @@ appWidth = width;
 appHeight = height;
 //
 //Population
-titleX = appWidth * 1/4;
+titleX = footerX = appWidth * 1/4;
 titleY = appHeight * 1/10;
+footerY = appHeight * 9/10;
 titleWidth = appWidth * 1/2;
 titleHeight = appHeight * 1/10;
+, , footerWidth, footerHeight
 //
 //Text Setup, single executed code
 //Fonts from OS (Operating System)
