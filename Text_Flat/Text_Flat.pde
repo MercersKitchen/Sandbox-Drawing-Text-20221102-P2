@@ -18,7 +18,7 @@ appHeight = height;
 //Population
 titleX = footerX = appWidth * 1/4;
 titleY = appHeight * 1/10;
-footerY = appHeight * 9/10;
+footerY = appHeight * 8/10;
 titleWidth = footerWidth = appWidth * 1/2;
 titleHeight = footerHeight = appHeight * 1/10;
 //
